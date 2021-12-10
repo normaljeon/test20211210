@@ -5,7 +5,7 @@ body {
 body,
 div,
 button {
-  /* font: inherit - 폰트 버그를 잡기 위한 초기화 화화화화화화화 크리스마스스스스스 */
+  /* font: inherit - 폰트 버그를 잡기 위한 초기화 */
   font: inherit;
   font-size: 16px;
   user-select: none;
