@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-col">
+        <div class="item-center logo-large relative">
+          D
+          <div class="camera-img"></div>
+        </div>
+      </div>
+      <div class="container-col">
+        <div class="item-center">Soohyun Jeon</div>
+        <div class="item-center">inputjsh@gmail.com</div>
+        <div class="item-center round">Google 계정 관리</div>
+      </div>
+      <!-- <div class="container-col"><div class="item-center round">Google 계정 관리</div></div> -->
+      <!-- <button>+</button>
+      <div>+</div> -->
+      <hr />
+      <div id="account-area" style="padding-left: 40px" class="container-col-left">
+        <div id="account-container">
+          <div class="container-row-left">
+            <div class="item-center logo-small">H</div>
+            <div style="margin-left: 10px" class="container-col-left">
+              <div>Hong Hong</div>
+              <div>Hong@classum.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="container-row-left">
+          <div class="item-center logo-small" onclick="addAccount()">+</div>
+          <div style="margin-left: 10px">Add another account</div>
+        </div>
+        <div class="container-row-left">
+          <button class="item-center logo-small" onclick="removeAccount()">-</button>
+          <div style="margin-left: 10px">Remove last account</div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-col"><div class="item-center rect">Sign out of all accounts</div></div>
+      <hr />
+      <!-- <div style="font-size: 0.9rem" class="container-row">
+        <div style="padding-right: 15px">Privacy Policy</div>
+        <div>Terms of Service</div>
+      </div> -->
+      <div class="container-col">
+        <div class="container-row-center">
+          <div>Privacy Policy</div>
+          <div>Terms of Service</div>
+        </div>
+      </div>
+      <hr />
+      <div class="container-col">
+        <button class="item-center rect" onclick="responseList_1()">Call the list</button>
+      </div>
+      <hr />
+      <div id="responseList"></div>
+    </div>
+  </body>
+</html>
